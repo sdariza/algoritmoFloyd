@@ -17,6 +17,7 @@ public class Floyd {
        
     public static void main(String[] args) {
         ways t= new ways();
+        System.out.println("Hola");
         t.floydWarshall(M);
     }
    static int[][] M = {{0, 9, 3, 4, 99999, 99999},
